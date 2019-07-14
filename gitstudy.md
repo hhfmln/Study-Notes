@@ -61,3 +61,11 @@ git remote add origin github的链接
 git push -u origin master
 ```
 
+**如果出现错误：fatal: remote origin already exists，则执行以下语句：
+
+```
+git remote rm origin
+```
+
+然后重新上传
+
